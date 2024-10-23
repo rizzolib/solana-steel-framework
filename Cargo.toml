@@ -1,0 +1,40 @@
+[workspace]
+resolver = "2"
+members = ["cli", "lib"]
+
+[workspace.package]
+version = "1.4.0"
+edition = "2021"
+license = "Apache-2.0"
+homepage = "https://ore.supply"
+documentation = "https://ore.supply"
+repository = "https://github.com/regolith-labs/steel"
+readme = "./README.md"
+keywords = ["solana"]
+
+[workspace.dependencies]
+bytemuck = "1.14"
+clap = { features = ["derive", "env"], version = "4.4" }
+clap_v3 = { version = "3", package = "clap" }
+anyhow = "1"
+colored = "2.0"
+git2 = "0.16"
+indicatif = "0.17"
+num_enum = "0.7"
+prettyplease = "0.2"
+syn = { features = ["full"], version = "2.0" }
+solana-clap-v3-utils = "^1.18"
+solana-cli-config = "^1.18"
+solana-program = "^1.18"
+solana-sdk = "^1.18"
+spl-token = { features = ["no-entrypoint"], version = "^4" }
+spl-associated-token-account = { features = [ "no-entrypoint" ], version = "^2.3" } 
+thiserror = "1.0.57"
+tokio = "1.35"
+quote = "1.0"
+
+# [workspace.dev-dependencies]
+# bs64 = "0.1.2"
+# solana-program-test = "^1.18"
+# solana-sdk = "^1.18"
+# tokio = { version = "1.35", features = ["full"] }

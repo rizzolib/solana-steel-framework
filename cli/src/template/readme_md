@@ -1,0 +1,23 @@
+# {name_typecase}
+
+**{name_typecase}** is a ...
+        
+## API
+- [`Consts`](api/src/consts.rs) – Program constants.
+- [`Error`](api/src/error.rs) – Custom program errors.
+- [`Event`](api/src/event.rs) – Custom program events.
+- [`Instruction`](api/src/instruction.rs) – Declared instructions.
+
+## Instructions
+- [`Initialize`](program/src/initialize.rs) – Initialize ...
+- [`Add`](program/src/add.rs) – Add ...
+
+## State
+- [`Counter`](api/src/state/counter.rs) – Counter ...
+
+## Tests
+
+To run the test suit, use the Solana toolchain:
+```
+cargo test-sbf         
+```
