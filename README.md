@@ -272,8 +272,6 @@ pub fn process_transfer(accounts: &[AccountInfo<'_>], data: &[u8]) -> ProgramRes
 ## Contact me
 If you need more technical support and development inquires, you can contact below.
 
-Telegram: [@Becklix](https://t.me/@Becklix)
-
 X: [@james980114](https://x.com/james980114)
 
 Discord: [@Benix](https://discordapp.com/users/393598468653842432)
