@@ -198,7 +198,7 @@ entrypoint!(process_instruction);
 
 Steel provides a library of composable functions for validating account data. You can chain these functions together to validate arbitrary account state and parse it into whatever type you need. 
 
-```rs
+```rs 
 use example_api::prelude::*;
 use steel::*;
 
